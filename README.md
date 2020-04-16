@@ -16,7 +16,7 @@ Patobulinimai:
   
 Pataisyta:
 
-  * Vietoje rand() (considered harmful) naudojami <random> bibliotekos irankiai
+  * Vietoje rand() (considered harmful) naudojami < random > bibliotekos irankiai
   
       random_device rd;
       mt19937 mt(rd());
