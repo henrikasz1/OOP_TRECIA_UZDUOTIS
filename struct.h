@@ -1,4 +1,4 @@
-#pragma once
+#define pragma once
 //#ifndef STRUCT_H_INCLUDED
 //#define STRUCT_H_INCLUDED
 
