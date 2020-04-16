@@ -5,6 +5,7 @@ OOP_ANTRA_UZDUOTIS tesinys
 V1.1 versija
 ----------------------
 Idiegimas:
+
   `git clone https://github.com/henrikasz1/OOP_TRECIA_UZDUOTIS.git`
   
   `cd OOP_TRECIA_UZDUOTIS/ (arba nueikite i aplanka butent siuo pavadinimu)`
