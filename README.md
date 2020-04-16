@@ -37,6 +37,6 @@ Programos spartos skaiciavimai:
   * Klase
   
   | Studentu kiekis |   Laikas   |
-  |------------------------------|
+  |-----------------|------------|
   |    100000(100k) |  3905.98ms |
   |   1000000(1mln) |  40512.9ms |
