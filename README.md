@@ -24,9 +24,14 @@ Programos spartos skaiciavimai:
 
    * Naudojama antra strategija su stable_partition algoritmu, konteineris - std::vector
   
-   * Struktura
   
-  | Studentu kiekis |   Laikas   |
-  |-----------------|------------|
-  |    100000(100k) |  4090.93ms |
-  |   1000000(1mln) |  43545.9ms |
+  
+  ------------------------------------------------------------------------------------------
+   * Struktura                              * Klase
+ 
+  | Studentu kiekis |   Laikas   |          | Studentu kiekis |   Laikas   |
+  |-----------------|------------|          |------------------------------|
+  |    100000(100k) |  4090.93ms |          |    100000(100k) |  3905.98ms |
+  |   1000000(1mln) |  43545.9ms |          |   1000000(1mln) |  40512.9ms |
+  
+  
