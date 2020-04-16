@@ -1,5 +1,6 @@
-#ifndef STRUCT_H_INCLUDED
-#define STRUCT_H_INCLUDED
+#pragma once
+//#ifndef STRUCT_H_INCLUDED
+//#define STRUCT_H_INCLUDED
 
 using namespace std;
 
@@ -47,4 +48,4 @@ public:
     void calculations();
 };
 
-#endif // STRUCT_H_INCLUDED
+//#endif // STRUCT_H_INCLUDED
