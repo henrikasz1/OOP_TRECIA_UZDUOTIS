@@ -21,6 +21,7 @@ Pataisyta:
       uniform_int_distribution<int> dist(1,10);
   
 Programos spartos skaiciavimai:
+
   *Naudojama antra strategija su stable_partition algoritmu, konteineris - std::vector
   
   *Struktura
