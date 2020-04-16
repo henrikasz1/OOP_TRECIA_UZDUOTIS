@@ -19,7 +19,9 @@ Pataisyta:
   * Vietoje rand() (considered harmful) naudojami < random > bibliotekos irankiai
   
       random_device rd;
+      
       mt19937 mt(rd());
+      
       uniform_int_distribution<int> dist(1,10);
   
 Programos spartos skaiciavimai:
