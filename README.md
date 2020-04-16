@@ -22,9 +22,9 @@ Pataisyta:
   
 Programos spartos skaiciavimai:
 
-   *Naudojama antra strategija su stable_partition algoritmu, konteineris - std::vector
+   * Naudojama antra strategija su stable_partition algoritmu, konteineris - std::vector
   
-   *Struktura
+   * Struktura
   
   | Studentu kiekis |   Laikas   |
   |-----------------|------------|
