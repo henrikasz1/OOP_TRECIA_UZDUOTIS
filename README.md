@@ -1,7 +1,7 @@
 # OOP_TRECIA_UZDUOTIS
 OOP_ANTRA_UZDUOTIS tesinys
 
-[Senesniu versiju changelog] (https://github.com/henrikasz1/OOP_TRECIA_UZDUOTIS/blob/master/README.md)
+[Senesniu versiju changelog](https://github.com/henrikasz1/OOP_TRECIA_UZDUOTIS/blob/master/README.md)
 ----------------------
 V1.1 versija
 ----------------------
