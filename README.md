@@ -72,3 +72,23 @@ Programos spartos skaiciavimai:
 Isvada:
  * Laikas naudojant struktura ir klase yra panasus, skirtumai labai minimalus, taciau naudojant klase, programos kodas tapo daug lengviau skaitomas ir koreguojamas
  * Galime pastebeti, kad naudojant flag'us, programos sparta padideja, geriausi rezultatai isgauti naudojant 03 flag'a (zinoma, tai taip pat priklauso ir nuo kompiliatoriaus)
+ 
+ 
+ ----------------
+ V1.2 versija
+ ----------------
+ 
+ Patobulinimai:
+ 
+ * I klase prideti keli operatoriai (operator overloading)
+ 
+ ----------------
+ V1.5 versija
+ ----------------
+ 
+ Patobulinimai: 
+ 
+ * Prideta copy semantika (turejo but v1.2 versijoje)
+ * Is vienos klases perdarytos dvi, base ir derived klases, naudojamas paveldejimas (inheritance)
+ * Panaudojama virtualios funkcijos (paciam kodui jos dideles reiksmes nesuteikia)
+ * Didzioji dalis setter'iu ir getter'iu pakeista i inline funkcijas (butent del to, vykdymo laikas gana zenkliai sumazejo)
