@@ -1,0 +1,145 @@
+O\+O\+P\+\_\+\+A\+N\+T\+R\+A\+\_\+\+U\+Z\+D\+U\+O\+T\+IS tesinys\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{$<$a href=\char`\"{}https\+://github.\+com/henrikasz1/\+O\+O\+P\+\_\+\+T\+R\+E\+C\+I\+A\+\_\+\+U\+Z\+D\+U\+O\+T\+I\+S/blob/master/\+R\+E\+A\+D\+M\+E.\+md\char`\"{}$>$\+Senesniu versiju changelog$<$/a$>$}\label{md__r_e_a_d_m_e_autotoc_md1}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxysection{V1.\+1 versija}\label{md__r_e_a_d_m_e_autotoc_md2}
+Idiegimas\+:
+
+{\ttfamily git clone \href{https://github.com/henrikasz1/OOP_TRECIA_UZDUOTIS.git}{\texttt{ https\+://github.\+com/henrikasz1/\+O\+O\+P\+\_\+\+T\+R\+E\+C\+I\+A\+\_\+\+U\+Z\+D\+U\+O\+T\+I\+S.\+git}}}
+
+{\ttfamily cd O\+O\+P\+\_\+\+T\+R\+E\+C\+I\+A\+\_\+\+U\+Z\+D\+U\+O\+T\+I\+S/ (arba nueikite i aplanka butent siuo pavadinimu)}
+
+Patobulinimai\+:
+
+
+\begin{DoxyItemize}
+\item Struct pakeista i Class
+\end{DoxyItemize}
+
+Pataisyta\+:
+
+
+\begin{DoxyItemize}
+\item Vietoje rand() (considered harmful) naudojami $<$ random $>$ bibliotekos irankiai \begin{DoxyVerb}   random_device rd;
+
+   mt19937 mt(rd());
+
+   uniform_int_distribution<int> dist(1,10);
+\end{DoxyVerb}
+
+\end{DoxyItemize}
+
+Programos spartos skaiciavimai\+:
+
+
+\begin{DoxyItemize}
+\item Naudojama antra strategija su stable\+\_\+partition algoritmu, konteineris -\/ std\+::vector
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+
+\begin{DoxyItemize}
+\item Struktura ~\newline
+
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endhead
+100000(100k) &4090.\+93ms  \\\cline{1-2}
+1000000(1mln) &43545.\+9ms  \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Klase
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endhead
+100000(100k) &3905.\+98ms  \\\cline{1-2}
+1000000(1mln) &40512.\+9ms  \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Klase su flag 01
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endhead
+100000(100k) &3437.\+27ms  \\\cline{1-2}
+1000000(1mln) &38653.\+6ms  \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Klase su flag 02
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endhead
+100000(100k) &3421.\+64ms  \\\cline{1-2}
+1000000(1mln) &36279.\+3ms  \\\cline{1-2}
+\end{longtabu}
+
+
+
+\begin{DoxyItemize}
+\item Klase su flag 03
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Studentu kiekis }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Laikas  }\\\cline{1-2}
+\endhead
+100000(100k) &3406.\+02ms  \\\cline{1-2}
+1000000(1mln) &33722.\+7ms  \\\cline{1-2}
+\end{longtabu}
+
+
+\DoxyHorRuler{0}
+
+
+Isvada\+:
+\begin{DoxyItemize}
+\item Laikas naudojant struktura ir klase yra panasus, skirtumai labai minimalus, taciau naudojant klase, programos kodas tapo daug lengviau skaitomas ir koreguojamas
+\item Galime pastebeti, kad naudojant flag\textquotesingle{}us, programos sparta padideja, geriausi rezultatai isgauti naudojant 03 flag\textquotesingle{}a (zinoma, tai taip pat priklauso ir nuo kompiliatoriaus) 
+\end{DoxyItemize}
